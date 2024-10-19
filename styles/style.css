@@ -1,0 +1,174 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f8ed;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.btn-empezar {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-empezar:hover {
+    background-color: #d62839;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #dbe6d5;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.hero-image {
+    height: 250px;
+}
+
+.btn-descargar {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-descargar:hover {
+    background-color: #d62839;
+}
+
+/* Servicios Section */
+.servicios {
+    text-align: center;
+    padding: 80px 60px;
+    background-color: #f0f8ed;
+}
+
+.servicios h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.destacada {
+    background-color: #a2d2ff;
+}
+
+/* Nosotros Section */
+.nosotros {
+    padding: 60px;
+    background-color: #f5f5f5;
+}
+
+.nosotros h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contenido-nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    flex: 1;
+}
+
+.video {
+    flex: 1;
+}
+
+.video iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.compromiso {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
